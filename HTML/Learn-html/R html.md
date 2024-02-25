@@ -85,7 +85,7 @@
 # HTML element
  - An HTML element is defined by a start tag, some content, and an end tag:
   -  Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.    - Opening tags tell the browser this is the start of an HTML element. Closing tags tell the browser where an element ends. 
-   <img src="assets/images/attribute.JPG" width="800">
+   <img src="assets/images/Capture.JPG" width="800">
 
 - **Nested HTML Element**
     - HTML elements can be nested (this means that elements can contain other elements).
