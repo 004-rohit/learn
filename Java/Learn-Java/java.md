@@ -21,10 +21,8 @@
     - [datatype](#datatype)
       - [system.out.println();](#systemoutprintln)
       - [variable](#variable-1)
-    - [Local variable](#local-variable)
-    - [O+ Operator](#o-operator)
-      - [primitive type custing](#primitive-type-custing)
-      - [widening](#widening)
+  - [Constructor](#constructor)
+  - [Object](#object)
 
 
 # Java basics 
@@ -309,9 +307,88 @@ Hello, World! </br>
 
 #### widening
 - it is process of converting the value from small size datatype to large size datatype 
--     
-   
 
-  
 
-             
+# Object Oriented Programming (OOP)
+
+## Class
+- It is important to remember that in Java, class names start with a **capital letter** and the file name should be saved as the class name.
+- Syntax to create class
+  ```java
+  class Name{
+    //methods
+    //attributes
+  }
+  ```
+- A class can contain-
+  - Attributes
+  - Methods
+  - Constructors
+  - Nested class
+  - Interface
+
+- **Access modifiers of class**
+  - public
+  - private
+  - protected
+  - default
+
+- **Types of classes**
+  - There are two types of classes-
+    - **Built-in classes**:
+      - The built-in classes are those which are pre-defined by the developers in JDK. 
+    - **User-defined classes**
+      - user-defined classes are the classes created by the user. 
+
+<div align="right"><a href="#top-of-page">(^)</a></div>
+
+## Constructor
+- Every class has a constructor. 
+- A constructor is a method that is used to initialize objects.
+- Example:
+  ```java
+  class Person {
+    constructor() {
+
+    }
+  }
+  ```
+
+<div align="right"><a href="#top-of-page">(^)</a></div>
+
+## Object
+- It is used to represent real-world entities that have a certain state, behavior, and identity. 
+- They are known as ‘instance of a class’.
+- The “new” keyword is used to allocate new memory space.
+- Example:
+  ```java
+  class Classroom {
+    int class_name;
+    String lecture;
+  }
+  class Important{
+    public static void main(String args[]){
+      // creating object c1
+      Classroom c1 = new Classroom();
+      c1.class_name = 10;
+      c1.lecture = "Java";
+      System.out.println(c1.class_name+" "+c1.lecture);
+    }
+  }
+  /* 
+   Understand: We are trying to create object like below:
+   c1 = {
+    class_name: 10,
+    lectures: "Java"
+   }
+  // Output: 10 Java
+  ```
+
+ // Object
+  var class = {
+    class_name: 10,
+    lecture: 'java'
+  }
+
+ // Array
+  var myArray = [1,2,3,4,5,6];
