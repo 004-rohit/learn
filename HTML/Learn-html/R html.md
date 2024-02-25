@@ -99,7 +99,7 @@
 
 # <h3>Attributes</h3> 
   -  Attributes contain extra information about the element that won't appear in the content.
-    <img src="assets/images/Attribute.JPG" width="600">
+    <img src="assets/images/htmlattribute.JPG" width="600">
  
 
 
