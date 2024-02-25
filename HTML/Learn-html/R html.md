@@ -1,5 +1,9 @@
+- [Basics](#basics)
+- [HTML element](#html-element)
+
+
 # Basics
-- **Introduction of HTML**
+- ## Introduction of HTML- 
    - HTML stands for ( Hyper Text Markup Language ).
    -  HTML is the standard markup language for creating Web pages. 
    -  HTML describes the structure of a Web page.
@@ -48,12 +52,13 @@
      ```html
      <p>this is paragraph</p>
      <p>this is another paragraph</p> 
+<p align="right">(<a href="#top">˄</a>)
 
-- ## HTML element
+# HTML element
     - An HTML element is defined by a start tag, some content, and an end tag:
     -  Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
-    - Opening tags tell the browser this is the start of an HTML element. Closing tags tell the browser where an element ends. Anatomy of an HTML element<br /><br />
-  <img src="assets/images/Capture.JPG" width="400">
+    - Opening tags tell the browser this is the start of an HTML element. Closing tags tell the browser where an element ends. 
+    <img src="assets/images/Capture.JPG" width="400">
 
 
 
