@@ -7,6 +7,7 @@
     - [HTML link](#html-link)
     - [HTML image](#html-image)
 - [HTML element](#html-element)
+- [Attributes](#attributes)
 
 
 
@@ -69,25 +70,36 @@
 <p align="right">(<a href="#top">˄</a>)
 
   ### HTML link
-    - HTML links are defined with the < a> tag:
+  - HTML links are defined with the < a> tag:
     ```html
       <a href="https://www.w3schools.com">This is a link</a>
-  ### HTML image
-    - HTML images are defined with the <img> tag.
-    - The source file (src), alternative text (alt), width, and height are provided as attributes:   
-    ```HTML
-    <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">   
+ ### HTML image
+  - HTML images are defined with the <img> tag.
+ - The source file (src), alternative text (alt), width, and height are provided as attributes:   
+   ```HTML
+    <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">```
 
+<p align="right">(<a href="#top">˄</a>)
+    
+     
 # HTML element
-    - An HTML element is defined by a start tag, some content, and an end tag:
-    -  Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
-    - Opening tags tell the browser this is the start of an HTML element. Closing tags tell the browser where an element ends. 
-   <img src="assets/images/Capture.JPG" width="200">
+ - An HTML element is defined by a start tag, some content, and an end tag:
+  -  Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.    - Opening tags tell the browser this is the start of an HTML element. Closing tags tell the browser where an element ends. 
+   <img src="assets/images/attribute.JPG" width="800">
 
 - **Nested HTML Element**
     - HTML elements can be nested (this means that elements can contain other elements).
     - All HTML documents consist of nested HTML elements.
     - The following example contains four HTML elements  (< html>, < body>, < h1> and < p>):
+- **Empty HTML Elements**
+   - HTML elements with no content are called empty elements.
+   - The < br> tag defines a line break, and is an empty element without a closing tag:
+    ```html
+       <p>This is a <br> paragraph with a line break.</p>
+
+# <h3>Attributes</h3> 
+  -  Attributes contain extra information about the element that won't appear in the content.
+    <img src="assets/images/Attribute.JPG" width="600">
  
 
 
