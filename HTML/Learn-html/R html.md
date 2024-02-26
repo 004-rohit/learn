@@ -1,23 +1,13 @@
 - [Basics](#basics)
-  - [Introduction of HTML-](#introduction-of-html-)
-  - [HTML Explanation](#html-explanation)
-    - [The \< !DOCTYPE\> Declaration](#the--doctype-declaration)
-    - [HTML heading](#html-heading)
-    - [HTML paragraph](#html-paragraph)
-    - [HTML link](#html-link)
-    - [HTML image](#html-image)
+  - [Introduction of HTML](#introduction-of-html)
 - [HTML element](#html-element)
 - [Attributes](#attributes)
-
-
-
-
-
+- [HTML Style](#html-style)
 
 
 # Basics
 
- ## Introduction of HTML- 
+ ## Introduction of HTML
    - HTML stands for ( Hyper Text Markup Language ).
    -  HTML is the standard markup language for creating Web pages. 
    -  HTML describes the structure of a Web page.
@@ -38,7 +28,6 @@
             <p>paragraph</p>
         </body>        
     </html>
-
 ## HTML Explanation
    - The < !DOCTYPE html> declaration defines that this document is an HTML5 document.
    - The < html > element is the root element of an HTML page.
@@ -48,12 +37,11 @@
   - The < h1> element defines a large heading.
   - The < p> element defines a paragraph.
 
-  ### The < !DOCTYPE> Declaration
+  ## The < !DOCTYPE> Declaration
     - The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
    - It must only appear once, at the top of the page (before any HTML tags).
    - The <!DOCTYPE> declaration is not case sensitive.
-
-   ### HTML heading
+ ### HTML heading
    - HTML headings are defined with the < h1> to < h6> tags.
    - < h1> defines the most important heading.
    - < h6> defines the least important heading:
@@ -62,14 +50,14 @@
       <h2>this is heading 2</h2>
       <h3>this is heading 3</h3>
 
-### HTML paragraph
+ ### HTML paragraph
    - HTML paragraphs are defined with the <p> tag:
      ```html
      <p>this is paragraph</p>
      <p>this is another paragraph</p> 
 <p align="right">(<a href="#top">˄</a>)
 
-  ### HTML link
+ ### HTML link
   - HTML links are defined with the < a> tag:
     ```html
       <a href="https://www.w3schools.com">This is a link</a>
@@ -78,14 +66,20 @@
  - The source file (src), alternative text (alt), width, and height are provided as attributes:   
    ```HTML
     <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">```
+ ### Comments
+  - We can add comments to your HTML source by using the following syntax:    
+   ```html
+       <!-- This is a comment -->
+       <p>This is a paragraph.</p>
+      <!-- Remember to add more information here -->
+  ```
 
-<p align="right">(<a href="#top">˄</a>)
-    
-     
+ <p align="right">(<a href="#top">˄</a>)
+ 
 # HTML element
- - An HTML element is defined by a start tag, some content, and an end tag:
-  -  Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.    - Opening tags tell the browser this is the start of an HTML element. Closing tags tell the browser where an element ends. 
-   <img src="assets/images/Capture.JPG" width="800">
+   - An HTML element is defined by a start tag, some  content, and an end tag:
+   -  Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.    - Opening tags tell the browser this is the start of an HTML element. Closing tags tell the browser where an element ends. 
+   -   <img src="assets/images/Capture.JPG" width="800">
 
 - **Nested HTML Element**
     - HTML elements can be nested (this means that elements can contain other elements).
@@ -96,10 +90,38 @@
    - The < br> tag defines a line break, and is an empty element without a closing tag:
     ```html
        <p>This is a <br> paragraph with a line break.</p>
+ <p align="right">(<a href="#top">˄</a>)      
 
 # <h3>Attributes</h3> 
   -  Attributes contain extra information about the element that won't appear in the content.
+  -  All HTML elements can have attributes
+  - Attributes provide additional information about elements
+  - Attributes are always specified in the start tag
+  - Attributes usually come in name/value pairs like: name="value"
+
     <img src="assets/images/htmlattribute.JPG" width="600">
- 
+
+<p align="right">(<a href="#top">˄</a>)
+
+# <h1>HTML Style</h1>
+  - The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+- **Example** 
+```html
+   <!DOCTYPE html>
+   <html>
+   <body>
+
+  <p>I am normal</p>
+  <p style="color:red;">I am red</p>
+  <p style="color:blue;">I am blue</p>
+  <p style="font-size:50px;">I am big</p>
+
+  </body>
+  </html>
+```
+- output
+  
+  <img src="assets/images/styleop.JPG" width="190"> 
+  
 
 
