@@ -5,6 +5,12 @@
   - [HTML Page structure](#html-page-structure)
   - [HTML Comments](#html-comments)
     - [Single line comment](#single-line-comment)
+    - [Multi-line comment](#multi-line-comment)
+- [HTML Elements](#html-elements)
+  - [Nested elements](#nested-elements)
+  - [Empty elements](#empty-elements)
+- [Attributes](#attributes)
+
 
 
 # HTML Basic
@@ -61,7 +67,11 @@
    - HTML Comments are used to insert comments in the HTML code. It is a good practice of coding so that the coder and the reader can get help to understand the code. It is a simple piece of code that is wiped off (ignored) by web browsers i.e., not displayed by the browser.
 
 ### Single line comment
-   -  The single-line comment is given inside the ( <!–  comment –> ) tag. 
+ -  The single-line comment is given inside the ( <!–  comment –> ) tag. 
+ -  **Syntax**
+```html
+    <!--  comment -->
+```    
    -  **Example**
 ```html
    <!DOCTYPE html>
@@ -80,4 +90,63 @@
 
   </html>
 ```  
+### Multi-line comment
+  - Multiple lines can be given by the syntax (<!– –>), Basically it’s the same as we used in single line comment, difference is half part of the comment (” –> “), is appended where the intended comment line ends. 
+  
+- **Syntax**
+```html
+    <!--  Multi
+    Line 
+    Comment -->
+```
+- **Example**
+```html
+   <!DOCTYPE html>
+<html>
+
+<body>
+
+	<!-- This is 
+		heading tag -->
+	<h1>This is Heading</h1>
+
+	<!-- This is
+		multi-line
+		comment -->
+	<h2>This is multi-line comment</h2>
+
+</body>
+
+</html>
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+# <h2>HTML Elements</h2>
+  
+  <img src="assets/images/element.JPG"
+  width="300">
+
+  - An HTML element is a collection of start and end tags with the content inserted in between them. HTML elements are building blocks of web pages, representing different types of content such as headings, paragraphs, links, and images.
+  - **Syntax**
+```html
+   <tagname> Contents... </tagname>
+```   
+## Nested elements
+  - The HTML element used inside another HTML Element is called a nested HTML element.
+
+## Empty elements 
+  - HTML Elements without any content i.e., that do not print anything are called Empty elements. Empty HTML elements do not have an ending tag. For instance.**< br>**, **< hr>**, **< link>**, **< input>** etc are HTML elements.
+  
+<p align="right">(<a href="#top">˄</a>)</p>
+
+# Attributes
+ - All HTML elements have attributes that will provide additional information about that particular element. It takes two parameters, ie, a name & a value which define the properties of the element and are placed inside the element tag.
+ - Attributes are always added to the start tag of an HTML element. Attributes always come in name/value pairs like this: attribute_name=”value” and attribute values should always be enclosed in quotes
+ - **Syntax**
+```html
+   <element attribute_name="attribute_value">
+```
+    
+
+
 
