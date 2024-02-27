@@ -1,128 +1,83 @@
-- [Basics](#basics)
-  - [Introduction of HTML](#introduction-of-html)
-- [HTML element](#html-element)
-- [Attributes](#attributes)
-- [HTML Style](#html-style)
+- [HTML Basic](#html-basic)
+  - [What is HTML ?](#what-is-html-)
+  - [Why to learn HTML ?](#why-to-learn-html-)
+  - [Features of HTML](#features-of-html)
+  - [HTML Page structure](#html-page-structure)
+  - [HTML Comments](#html-comments)
+    - [Single line comment](#single-line-comment)
 
 
-# Basics
+# HTML Basic
 
- ## Introduction of HTML
-   - HTML stands for ( Hyper Text Markup Language ).
-   -  HTML is the standard markup language for creating Web pages. 
-   -  HTML describes the structure of a Web page.
-   -   HTML consists of a series of elements.
-   -    It is used to structure a document into logical sections.
-   - We use HTML elements to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage.
-   - With the help of HTML, we can embed content such as images and videos into a page.    
+## What is HTML ?
+  - HTML stands for HyperText Markup Language. It is the standard language used to create and design web pages on the internet.
+  - HTML is a combination of Hypertext and Markup language. Hypertext defines the link between the web pages and markup language defines the text document within the tag.
 
- - **Example** 
-   ```html
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>page title</title>
-        </head>
-        <body>
-            <h1>heading</h1>
-            <p>paragraph</p>
-        </body>        
-    </html>
-## HTML Explanation
-   - The < !DOCTYPE html> declaration defines that this document is an HTML5 document.
-   - The < html > element is the root element of an HTML page.
-   - The < head> element contains meta information about the HTML page.
-   - The < title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab).
-   - The < body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-  - The < h1> element defines a large heading.
-  - The < p> element defines a paragraph.
+<p align="right">(<a href="#top">˄</a>)</p>  
 
-  ## The < !DOCTYPE> Declaration
-    - The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
-   - It must only appear once, at the top of the page (before any HTML tags).
-   - The <!DOCTYPE> declaration is not case sensitive.
- ### HTML heading
-   - HTML headings are defined with the < h1> to < h6> tags.
-   - < h1> defines the most important heading.
-   - < h6> defines the least important heading:
-     ```html
-      <h1>this is heading 1</h1>
-      <h2>this is heading 2</h2>
-      <h3>this is heading 3</h3>
+## Why to learn HTML ?
+  - HTML is used to create the structure of web pages and websites that are displayed on the Internet. It contains Tags and Attributes that are used to design the web pages. Also, we can link multiple pages using Hyperlinks.  
 
- ### HTML paragraph
-   - HTML paragraphs are defined with the <p> tag:
-     ```html
-     <p>this is paragraph</p>
-     <p>this is another paragraph</p> 
-<p align="right">(<a href="#top">˄</a>)
+<p align="right">(<a href="#top">˄</a>)</p>
 
- ### HTML link
-  - HTML links are defined with the < a> tag:
-    ```html
-      <a href="https://www.w3schools.com">This is a link</a>
- ### HTML image
-  - HTML images are defined with the <img> tag.
- - The source file (src), alternative text (alt), width, and height are provided as attributes:   
-   ```HTML
-    <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">```
- ### Comments
-  - We can add comments to your HTML source by using the following syntax:    
-   ```html
-       <!-- This is a comment -->
-       <p>This is a paragraph.</p>
-      <!-- Remember to add more information here -->
-  ```
+## Features of HTML
+  - It is easy to learn and easy to use.
+  - It is platform-independent.
+  - Images, videos, and audio can be added to a web page.
+  - Hypertext can be added to the text.
+  - It is a markup language. 
 
- <p align="right">(<a href="#top">˄</a>)
- 
-# HTML element
-   - An HTML element is defined by a start tag, some  content, and an end tag:
-   -  Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.    - Opening tags tell the browser this is the start of an HTML element. Closing tags tell the browser where an element ends. 
-   -   <img src="assets/images/Capture.JPG" width="800">
+<p align="right">(<a href="#top">˄</a>)</p>
 
-- **Nested HTML Element**
-    - HTML elements can be nested (this means that elements can contain other elements).
-    - All HTML documents consist of nested HTML elements.
-    - The following example contains four HTML elements  (< html>, < body>, < h1> and < p>):
-- **Empty HTML Elements**
-   - HTML elements with no content are called empty elements.
-   - The < br> tag defines a line break, and is an empty element without a closing tag:
-    ```html
-       <p>This is a <br> paragraph with a line break.</p>
- <p align="right">(<a href="#top">˄</a>)      
+## HTML Page structure
+  <img src="assets/images/htmlstructure.JPG"
+     width="300">
 
-# <h3>Attributes</h3> 
-  -  Attributes contain extra information about the element that won't appear in the content.
-  -  All HTML elements can have attributes
-  - Attributes provide additional information about elements
-  - Attributes are always specified in the start tag
-  - Attributes usually come in name/value pairs like: name="value"
+   - **< !DOCTYPE html>** – This is the document type declaration (not technically a tag). It declares a document as being an HTML document. The doctype declaration is not case-sensitive. 
+  
+   - **< html>** – This is called the HTML root element. All other elements are contained within it.
+  
+   - **< head>** – The head tag contains the “behind the scenes” elements for a webpage. Elements within the head aren’t visible on the front end of a webpage. HTML elements used inside the < head> element include: 
+  
+   - **< style>** – This HTML tag allows us to insert styling into our web pages and make them appealing to look at with the help of CSS.
+  
+   - **< title>** – The title is what is displayed on the top of your browser when you visit a website and contains the title of the webpage that you are viewing.
+  
+   - **< base>** – It specifies the base URL for all relative URL’s in a document.
+  
+   - **< noscript>** – Defines a section of HTML that is inserted when the scripting has been turned off in the user’s browser.
+  
+   - **< script>** – This tag is used to add functionality to the website with the help of JavaScript.
+  
+   - **< meta>** – This tag encloses the metadata of the website that must be loaded every time the website is visited. For eg:- the metadata charset allows you to use the standard UTF-8 encoding on your website. This in turn allows the users to view your webpage in the language of their choice. It is a self-closing tag.
+  
+   - **< link>** – The ‘link’ tag is used to tie together HTML, CSS, and JavaScript. It is self-closing.
+  
+   - **< body>** – The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end.  
+  
+<p align="right">(<a href="#top">˄</a>)</p>
 
-    <img src="assets/images/htmlattribute.JPG" width="600">
+## HTML Comments
+   - HTML Comments are used to insert comments in the HTML code. It is a good practice of coding so that the coder and the reader can get help to understand the code. It is a simple piece of code that is wiped off (ignored) by web browsers i.e., not displayed by the browser.
 
-<p align="right">(<a href="#top">˄</a>)
-
-# <h1>HTML Style</h1>
-  - The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
-- **Example** 
+### Single line comment
+   -  The single-line comment is given inside the ( <!–  comment –> ) tag. 
+   -  **Example**
 ```html
    <!DOCTYPE html>
    <html>
-   <body>
 
-  <p>I am normal</p>
-  <p style="color:red;">I am red</p>
-  <p style="color:blue;">I am blue</p>
-  <p style="font-size:50px;">I am big</p>
+   <body>
+	     <!--This is heading Tag, It wont be
+        displayed by the browser -->
+	<h1>This is heading </h1>
+
+	    <!--This is single line comment,It wont be
+       displayed by the browser -->
+	<h2>This is single line comment</h2>
 
   </body>
+
   </html>
-```
-- output
-  
-  <img src="assets/images/styleop.JPG" width="190"> 
-  
-
-
+```  
 
