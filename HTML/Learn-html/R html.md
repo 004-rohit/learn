@@ -11,6 +11,9 @@
   - [Empty elements](#empty-elements)
 - [Attributes](#attributes)
   - [HTML src attribute](#html-src-attribute)
+  - [HTML alt attribute](#html-alt-attribute)
+  - [HTML width and height attribute](#html-width-and-height-attribute)
+  - [HTML ID attribute](#html-id-attribute)
 
 
 
@@ -161,6 +164,50 @@
   </body>
   </html>
 ```
+## HTML alt attribute
+  - This is an alternate tag that is used to show or display something if the primary attribute i.e., the **< img>** tag, fails to display the value assigned to it. This can also be used to describe the image to a developer who is actually sitting at the coding end.
+```html
+    <!--If the image is not found or the img field 
+     is left blank the alt value gets displayed-->
+```
+## HTML width and height attribute
+  - This attribute is used to adjust the width and height of an image.
+  - **Example**
+```html
+   <html>
+  <head>
+    <title>Width and Height</title>
+  </head>
+  <body>
+    <img src="assets/images/ image name"
+      width="300px" height="100px" >
+      <!-- for image size and height -->
+  </body>
+  </html>
+```  
+## HTML ID attribute
+  - This attribute is used to provide a unique identification to an element. Situations may arise when we will need to access a particular element that may have a similar name as the others. In that case, we provide different id’s to various elements so that they can be uniquely accessed. **
+  - **Example**
+```html
+   <!DOCTYPE html>
+  <html>
+
+  <head>
+    <style>
+    #geeks {
+      color: green;
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="geeks">Welcome to GeeksforGeeks</h1> </body>
+
+  </html>
+```
+
+
+     
 
 
 
