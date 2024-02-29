@@ -253,6 +253,11 @@
 </body>
 </html>
 ```
+*output* :
+
+<img src="assets/images/styleattribute.JPG"
+width="300">
+
 <p align="right">(<a href="#top">˄</a>)</p>
 
 
