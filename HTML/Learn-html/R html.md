@@ -10,6 +10,7 @@
   - [Nested elements](#nested-elements)
   - [Empty elements](#empty-elements)
 - [Attributes](#attributes)
+  - [HTML src attribute](#html-src-attribute)
 
 
 
@@ -146,7 +147,20 @@
 ```html
    <element attribute_name="attribute_value">
 ```
-    
+## HTML src attribute
+  - If we want to insert an image into a webpage, then we need to use the **< img>** tag and the src attribute. We will need to specify the address of the image as the attribute’s value inside the double quote.
+  - **Example**
+```html
+   <html>
+  <head>
+    <title>src Attribute</title>
+  </head>
+  <body>
+    <img src="assets/images/image name ">
+     <!-- insert image-->
+  </body>
+  </html>
+```
 
 
 
