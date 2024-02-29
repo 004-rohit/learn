@@ -14,6 +14,8 @@
   - [HTML alt attribute](#html-alt-attribute)
   - [HTML width and height attribute](#html-width-and-height-attribute)
   - [HTML ID attribute](#html-id-attribute)
+  - [HTML href attribute](#html-href-attribute)
+  - [HTML style attribute](#html-style-attribute)
 
 
 
@@ -150,6 +152,8 @@
 ```html
    <element attribute_name="attribute_value">
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## HTML src attribute
   - If we want to insert an image into a webpage, then we need to use the **< img>** tag and the src attribute. We will need to specify the address of the image as the attribute’s value inside the double quote.
   - **Example**
@@ -164,12 +168,16 @@
   </body>
   </html>
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## HTML alt attribute
   - This is an alternate tag that is used to show or display something if the primary attribute i.e., the **< img>** tag, fails to display the value assigned to it. This can also be used to describe the image to a developer who is actually sitting at the coding end.
 ```html
     <!--If the image is not found or the img field 
      is left blank the alt value gets displayed-->
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## HTML width and height attribute
   - This attribute is used to adjust the width and height of an image.
   - **Example**
@@ -185,6 +193,8 @@
   </body>
   </html>
 ```  
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## HTML ID attribute
   - This attribute is used to provide a unique identification to an element. Situations may arise when we will need to access a particular element that may have a similar name as the others. In that case, we provide different id’s to various elements so that they can be uniquely accessed. **
   - **Example**
@@ -205,6 +215,48 @@
 
   </html>
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+## HTML href attribute
+  - This attribute is used to specify a link to any address. This attribute is used along with the **< a>** tag. The link put inside the href attribute gets linked to the text displayed inside the **< a>** tag. On clicking on the text we will be redirected to the link. By default, the link gets opened in the same tag but by using the target attribute and setting its value to “_blank”, we will be redirected to another tab or another window based on the browser’s configuration.
+  - **Example**
+```html
+<html>
+<head>
+	<title>link Attribute</title>
+</head>
+<body>
+	<a href="https://www.geeksforgeeks.org/">
+		<!--Click to open in the same tab-->
+	</a><br>
+	<a href="https://www.geeksforgeeks.org/" target="_blank">
+		<!--Click to open in a different tab-->
+	</a>
+</body>
+</html>
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+## HTML style attribute
+  - This attribute is used to provide various CSS effects to the HTML elements such as increasing font-size, changing font-family, coloring, etc.
+  - The style attribute specifies an inline style for an element. The style attribute will override any style set globally, e.g. styles specified in the **< style>** tag or in an external style sheet.
+```html
+<html>
+<head>
+	<title>style Attribute</title>
+</head>
+<body>
+	<h2 style="font-family:Chaparral Pro Light;">Hello GeeksforGeeks.</h2>
+	<h3 style="font-size:20px;">Hello GeeksforGeeks.</h3>
+	<h2 style="color:#8CCEF9;">Hello GeeksforGeeks.</h2>
+	<h2 style="text-align:center;">Hello GeeksforGeeks.</h2>
+</body>
+</html>
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+
+
 
 
      
