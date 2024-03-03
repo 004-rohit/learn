@@ -16,6 +16,9 @@
   - [HTML ID attribute](#html-id-attribute)
   - [HTML href attribute](#html-href-attribute)
   - [HTML style attribute](#html-style-attribute)
+- [HTML heading](#html-heading)
+  - [Horizontal rules (\< hr\>tag)](#horizontal-rules--hrtag)
+- [HTML Paragraphs](#html-paragraphs)
 
 
 
@@ -235,12 +238,15 @@
 </body>
 </html>
 ```
+- **Output**
+  
+   <img src="assets/images/href.JPG">
 <p align="right">(<a href="#top">˄</a>)</p>
 
 ## HTML style attribute
   - This attribute is used to provide various CSS effects to the HTML elements such as increasing font-size, changing font-family, coloring, etc.
   - The style attribute specifies an inline style for an element. The style attribute will override any style set globally, e.g. styles specified in the **< style>** tag or in an external style sheet.
-```html
+  ```html
 <html>
 <head>
 	<title>style Attribute</title>
@@ -252,7 +258,7 @@
 	<h2 style="text-align:center;">Hello GeeksforGeeks.</h2>
 </body>
 </html>
-```
+  ```
 *output* :
 
 <img src="assets/images/styleattribute.JPG"
@@ -260,7 +266,55 @@ width="300">
 
 <p align="right">(<a href="#top">˄</a>)</p>
 
+# HTML heading
+ - The HTML heading tag is used to define the headings of a page. There are six levels of headings defined by HTML. These 6 heading elements are h1, h2, h3, h4, h5, and h6; with h1 being the highest level and h6 being the least.
+   * **< h1>** is used for the main heading. (Biggest in size)
+   * **< h2>** is used for subheadings, if there are further sections under the subheadings then the **< h3>** elements are used. 
+   * **< h6>** for the small heading (smallest one).
+- **Syntax**
+  ```html
+  <!-- the 'h' inside the tag should be in small case only.-->
+  <h1>Heading1</h1>
+  <h2>Heading2</h2>
+  .
+  .
+  .
+  <h6>Heading6</h6>
+  ```
+  <p align="right">(<a href="#top">˄</a>)</p>
 
+## Horizontal rules (< hr>tag)
+ - The **< hr>** tag which stands for the horizontal rule is used to define a thematic break in an HTML page. The **< hr>** tag is an empty tag, and it does not require any end tag. It is basically used to separate content. Please refer to the HTML **< hr>** Tag article for more detailed information.
+- **Example**
+  ```html
+  <!DOCTYPE html>
+  <html>
+
+   <body>
+	   <h1>Heading 1</h1>
+	    <p>I like HTML.</p>
+	     <!-- hr Tag is used here-->
+	   <hr />
+	   <h2>Heading 2</h2>
+	    <p>I like CSS.</>
+	     <!-- hr Tag is used here-->
+	   <hr />
+	   <h2>Heading 3</h2>
+	    <p>I like Javascript.</p>
+   </body>
+
+  </html>
+  ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+# HTML Paragraphs
+ - The **< p>** tag in HTML defines a paragraph. These have both opening and closing tags. So anything mentioned within **< p>** and **< /p>** is treated as a paragraph.
+ -  A paragraph is a block-level element so a new paragraph always begins on a new line, and browsers naturally put some space before and after a paragraph to make it look neat and easy to read.
+
+ - **Syntax** 
+  ```html
+     <p> Content </p>
+  ```   
 
 
 
