@@ -351,7 +351,7 @@ width="300">
  - HTML Colors can be applied to text, backgrounds, borders, links, forms, tables, etc., They can be defined using various formats, such as hexadecimal, RGB, RGBA, HSL, and named colors, allowing for precise control of color presentation on web pages.
 
 ## HTML Color usage
- - <u>**Usage**</u> - `Background color`
+ - **Usage** - `Background color`
    *  <u>**Descriptions**</u> - HTML Background Color is the shade that appears behind the content on a webpage. The background covers the total size of the element with padding and border but excludes the margin. It makes the text so easy to read for the user. 
    * **Syntax** 
     ```html
@@ -361,7 +361,7 @@ width="300">
     ```
 <hr>
 
-- <u>**Usage**</u> - `Text Color`      
+- **Usage** - `Text Color`      
     * <u>**Description**</u> - Text color in HTML specifies the color of the text content, similar to font color.
     * **Syntax**
    ```html
