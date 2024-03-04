@@ -20,6 +20,10 @@
   - [Horizontal rules (\< hr\>tag)](#horizontal-rules--hrtag)
 - [HTML Paragraphs](#html-paragraphs)
   - [HTML **\< br\>** tag](#html--br-tag)
+- [HTML Text formating](#html-text-formating)
+  - [Formating elements](#formating-elements)
+- [HTML Colors](#html-colors)
+  - [HTML Color usage](#html-color-usage)
 
 
 
@@ -316,12 +320,54 @@ width="300">
   ```html
      <p> Content </p>
   ``` 
+  <p align="right">(<a href="#top">˄</a>)</p>
+
  ## HTML **< br>** tag
   - The HTML `< br>` tag element creates a line break, giving you a new line without starting a new paragraph. Use `< br>` when you want to move to the next line without beginning a whole new paragraph.   
+ - **Syntax**
+    ```html
+        <br>
+    ```
+<p align="right">(<a href="#top">˄</a>)</p>
 
+# HTML Text formating
+ - HTML Text Formatting provides various tags for text formatting to enhance the visual presentation of content on a webpage. You can make your text bold, italic, etc. by using some HTML tags.   
+        
+## Formating elements 
+ - Tag `<i>` - Showcases italicized text.
+ - Tag `<small>` - Renders text in a smaller font size.
+ - Tag `<ins>` - Highlights added or inserted text.
+ - Tag `<sub>` - Creates subscript text.
+ - Tag `<strong>` - Emphasizes text with importance, often in bold.
+ - Tag `<b>` - Displays text in a bold format.
+ - Tag `<mark>` - Accentuates text with a background highlight.
+ - Tag `<del>` - Strikes through text to signify deletion. 
+ - Tag `<em>` - Adds emphasis to text, commonly styled as italic.
+ - Tag `<sup>` - Formats text as superscript.   
 
+<p align="right">(<a href="#top">˄</a>)</p>
 
-     
+# HTML Colors
+ - HTML Colors can be applied to text, backgrounds, borders, links, forms, tables, etc., They can be defined using various formats, such as hexadecimal, RGB, RGBA, HSL, and named colors, allowing for precise control of color presentation on web pages.
 
+## HTML Color usage
+ - **Usage** - `Background color`
+   *  **Descriptions** - HTML Background Color is the shade that appears behind the content on a webpage. The background covers the total size of the element with padding and border but excludes the margin. It makes the text so easy to read for the user. 
+   * **Syntax** 
+    ```html
+       <div style=”background-color: magenta;”>
+      Div with magenta background
+      </div>
+    ```
+<hr>
 
+- **Usage** - `Text Color`      
+    * **Description** - Text color in HTML specifies the color of the text content, similar to font color.
+    * **Syntax**
+   ```html
+      <p style=”color: pink;”>
+      Pink color is used
+      </p>
+   ```
+<hr>      
 
