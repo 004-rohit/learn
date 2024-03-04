@@ -19,13 +19,14 @@
 - [HTML heading](#html-heading)
   - [Horizontal rules (\< hr\>tag)](#horizontal-rules--hrtag)
 - [HTML Paragraphs](#html-paragraphs)
+  - [HTML **\< br\>** tag](#html--br-tag)
 
 
 
 # HTML Basic
 
 ## What is HTML ?
-  - HTML stands for HyperText Markup Language. It is the standard language used to create and design web pages on the internet.
+  - HTML stands for `HyperText Markup Language.` It is the standard language used to create and design web pages on the internet.
   - HTML is a combination of Hypertext and Markup language. Hypertext defines the link between the web pages and markup language defines the text document within the tag.
 
 <p align="right">(<a href="#top">˄</a>)</p>  
@@ -52,7 +53,7 @@
   
    - **< html>** – This is called the HTML root element. All other elements are contained within it.
   
-   - **< head>** – The head tag contains the “behind the scenes” elements for a webpage. Elements within the head aren’t visible on the front end of a webpage. HTML elements used inside the < head> element include: 
+   - **< head>** – The head tag contains the “behind the scenes” elements for a webpage. Elements within the head aren’t visible on the front end of a webpage. HTML elements used inside the `< head>` element include: 
   
    - **< style>** – This HTML tag allows us to insert styling into our web pages and make them appealing to look at with the help of CSS.
   
@@ -144,7 +145,7 @@
   - The HTML element used inside another HTML Element is called a nested HTML element.
 
 ## Empty elements 
-  - HTML Elements without any content i.e., that do not print anything are called Empty elements. Empty HTML elements do not have an ending tag. For instance.**< br>**, **< hr>**, **< link>**, **< input>** etc are HTML elements.
+  - HTML Elements without any content i.e., that do not print anything are called Empty elements. Empty HTML elements do not have an ending tag. For instance.`< br>`, `< hr>`, `< link>`, `< input>` etc are HTML elements.
   
 <p align="right">(<a href="#top">˄</a>)</p>
 
@@ -158,7 +159,7 @@
 <p align="right">(<a href="#top">˄</a>)</p>
 
 ## HTML src attribute
-  - If we want to insert an image into a webpage, then we need to use the **< img>** tag and the src attribute. We will need to specify the address of the image as the attribute’s value inside the double quote.
+  - If we want to insert an image into a webpage, then we need to use the `< img>` tag and the src attribute. We will need to specify the address of the image as the attribute’s value inside the double quote.
   - **Example**
 ```html
    <html>
@@ -174,7 +175,7 @@
 <p align="right">(<a href="#top">˄</a>)</p>
 
 ## HTML alt attribute
-  - This is an alternate tag that is used to show or display something if the primary attribute i.e., the **< img>** tag, fails to display the value assigned to it. This can also be used to describe the image to a developer who is actually sitting at the coding end.
+  - This is an alternate tag that is used to show or display something if the primary attribute i.e., the `< img>` tag, fails to display the value assigned to it. This can also be used to describe the image to a developer who is actually sitting at the coding end.
 ```html
     <!--If the image is not found or the img field 
      is left blank the alt value gets displayed-->
@@ -199,7 +200,7 @@
 <p align="right">(<a href="#top">˄</a>)</p>
 
 ## HTML ID attribute
-  - This attribute is used to provide a unique identification to an element. Situations may arise when we will need to access a particular element that may have a similar name as the others. In that case, we provide different id’s to various elements so that they can be uniquely accessed. **
+  - This attribute is used to provide a unique identification to an element. Situations may arise when we will need to access a particular element that may have a similar name as the others. In that case, we provide different id’s to various elements so that they can be uniquely accessed. 
   - **Example**
 ```html
    <!DOCTYPE html>
@@ -221,7 +222,7 @@
 <p align="right">(<a href="#top">˄</a>)</p>
 
 ## HTML href attribute
-  - This attribute is used to specify a link to any address. This attribute is used along with the **< a>** tag. The link put inside the href attribute gets linked to the text displayed inside the **< a>** tag. On clicking on the text we will be redirected to the link. By default, the link gets opened in the same tag but by using the target attribute and setting its value to “_blank”, we will be redirected to another tab or another window based on the browser’s configuration.
+  - This attribute is used to specify a link to any address. This attribute is used along with the `< a>` tag. The link put inside the href attribute gets linked to the text displayed inside the `< a>` tag. On clicking on the text we will be redirected to the link. By default, the link gets opened in the same tag but by using the target attribute and setting its value to `“_blank” `, we will be redirected to another tab or another window based on the browser’s configuration.
   - **Example**
 ```html
 <html>
@@ -245,7 +246,7 @@
 
 ## HTML style attribute
   - This attribute is used to provide various CSS effects to the HTML elements such as increasing font-size, changing font-family, coloring, etc.
-  - The style attribute specifies an inline style for an element. The style attribute will override any style set globally, e.g. styles specified in the **< style>** tag or in an external style sheet.
+  - The style attribute specifies an inline style for an element. The style attribute will override any style set globally, e.g. styles specified in the `< style>` tag or in an external style sheet.
   ```html
 <html>
 <head>
@@ -268,9 +269,9 @@ width="300">
 
 # HTML heading
  - The HTML heading tag is used to define the headings of a page. There are six levels of headings defined by HTML. These 6 heading elements are h1, h2, h3, h4, h5, and h6; with h1 being the highest level and h6 being the least.
-   * **< h1>** is used for the main heading. (Biggest in size)
-   * **< h2>** is used for subheadings, if there are further sections under the subheadings then the **< h3>** elements are used. 
-   * **< h6>** for the small heading (smallest one).
+   * `< h1>` is used for the main heading. (Biggest in size)
+   * `< h2>` is used for subheadings, if there are further sections under the subheadings then the `< h3>` elements are used. 
+   * `< h6>` for the small heading (smallest one).
 - **Syntax**
   ```html
   <!-- the 'h' inside the tag should be in small case only.-->
@@ -284,7 +285,7 @@ width="300">
   <p align="right">(<a href="#top">˄</a>)</p>
 
 ## Horizontal rules (< hr>tag)
- - The **< hr>** tag which stands for the horizontal rule is used to define a thematic break in an HTML page. The **< hr>** tag is an empty tag, and it does not require any end tag. It is basically used to separate content. Please refer to the HTML **< hr>** Tag article for more detailed information.
+ - The `< hr>` tag which stands for the horizontal rule is used to define a thematic break in an HTML page. The `< hr>` tag is an empty tag, and it does not require any end tag. It is basically used to separate content. Please refer to the HTML `< hr>` Tag article for more detailed information.
 - **Example**
   ```html
   <!DOCTYPE html>
@@ -308,13 +309,15 @@ width="300">
 <p align="right">(<a href="#top">˄</a>)</p>
 
 # HTML Paragraphs
- - The **< p>** tag in HTML defines a paragraph. These have both opening and closing tags. So anything mentioned within **< p>** and **< /p>** is treated as a paragraph.
+ - The `< p>` tag in HTML defines a paragraph. These have both opening and closing tags. So anything mentioned within `< p>` and `< /p>` is treated as a paragraph.
  -  A paragraph is a block-level element so a new paragraph always begins on a new line, and browsers naturally put some space before and after a paragraph to make it look neat and easy to read.
 
  - **Syntax** 
   ```html
      <p> Content </p>
-  ```   
+  ``` 
+ ## HTML **< br>** tag
+  - The HTML `< br>` tag element creates a line break, giving you a new line without starting a new paragraph. Use `< br>` when you want to move to the next line without beginning a whole new paragraph.   
 
 
 
