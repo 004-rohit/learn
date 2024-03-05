@@ -509,3 +509,21 @@ width="300">
 
 <p align="right">(<a href="#top">˄</a>)</p>
 
+- **Using Image as a Background** : An image can be used as a background for a webpage. For this, we use the `background-image` property of CSS. Please refer to the `HTML | <body>` background Attribute for further details.
+  ```html
+     <!DOCTYPE html>
+    <html>
+
+      <body style="background-image: url ('image');">
+        <h2>Image As a Background</h2>
+        <p>
+         <!--> In this example we have specified a
+          background for a webpage using an image.-->
+        </p>
+      </body>
+
+      </html>
+  ```
+      
+
+
