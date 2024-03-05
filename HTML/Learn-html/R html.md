@@ -1,4 +1,4 @@
-- [HTML Basic](#html-basic)
+- [Basic](#basic)
   - [What is HTML ?](#what-is-html-)
   - [Why to learn HTML ?](#why-to-learn-html-)
   - [Features of HTML](#features-of-html)
@@ -36,7 +36,7 @@
 
 
 
-# HTML Basic
+# Basic
 
 ## What is HTML ?
   - HTML stands for `HyperText Markup Language.` It is the standard language used to create and design web pages on the internet.
