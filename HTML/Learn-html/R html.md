@@ -32,6 +32,7 @@
 - [HTML Links](#html-links)
   - [Using image as link in html](#using-image-as-link-in-html)
   - [Creating a download link in HTML](#creating-a-download-link-in-html)
+- [HTML image](#html-image)
 
 
 
@@ -472,4 +473,39 @@ width="300">
 
       </html>
   ```    
-   
+  <p align="right">(<a href="#top">˄</a>)</p>
+
+# HTML image
+ - Adding images on a webpage: The `<img>` tag is used to add or embed the images to a webpage/website. The “img” tag is an empty tag, which means it can contain only a list of attributes and it has no closing tag. The addition of the images improves the quality along with enhancing the design structure, appearance of the webpage.   
+  - **Syntax**
+  ```html
+     <img src="url" alt="some_text" width="" height="">
+  ```
+- *Attribute: The `<img>` tag has following attributes:*  
+
+  * `src` : It is used to specify the path to the image. 
+  
+  * `alt` : It is used to specify an alternate text for the image. It is useful as it informs the user about what the image means and also due to any network issue if the image cannot be displayed then this alternate text will be displayed.  
+  
+  * `crossorigin` : It is used to import images from third-party sites that allow cross-origin access to be used with canvas.
+  
+  * `height` : It is used to specify the height of the image.
+  
+  * `width` : It is used to specify the width of the image.
+  
+  * `ismap` : It is used to specify an image as a server-side image map.
+  
+  * `loading` : It is used to specify whether a browser should defer the loading of images until some conditions are met or load an image immediately.
+  
+  * `longdesc` : It is used to specify a URL to a detailed description of an image.
+  
+  * `referrerpolicy` : It is used to specify which referrer information to use when fetching an image i.e. no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url.
+  
+  * `sizes` : It is used to specify image sizes for different page layouts.
+  
+  * `srcset` : It is used to specify a list of image files to use in different situations.
+  
+  * `usemap` : It is used to specify an image as a client-side image map.
+
+<p align="right">(<a href="#top">˄</a>)</p>
+
