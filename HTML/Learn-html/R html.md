@@ -30,6 +30,8 @@
     - [RGBA Color value](#rgba-color-value)
   - [HEX Color Value](#hex-color-value)
 - [HTML Links](#html-links)
+  - [Using image as link in html](#using-image-as-link-in-html)
+  - [Creating a download link in HTML](#creating-a-download-link-in-html)
 
 
 
@@ -442,4 +444,32 @@ width="300">
    ```html
      <a href="url">link text</a>
    ```
+- **External link**
+  - An external link is a type of hyperlink that directs users to a resource, such as a webpage, image, or document, located on a different website or domain.
+- **Internal link**
+   - An internal link is a type of hyperlink whose target or destination is a resource, such as an image or document, on the same website or domain.    
+## Using image as link in html
+ - An image can be used to create a link to a specified URL. When the viewer clicks on the link, it redirects them to another page.
+   ```html
+      <a href="url">
+      <img src="file address (on device or on web)"       alt="_" style="width:__ ; height:__ ; border:__">
+      </a> 
+   ```    
+## Creating a download link in HTML
+ - A text link of a pdf, doc or zip file can be created to make it downloadable.
+ - **Example**
+  ```html
+     <!DOCTYPE html>
+      <html>
+
+      <h3>Creating a download link</h3>
+
+      <body>
+        <a href="GeeksforGeeks.pdf">
+          Download PDF File
+        </a>
+      </body>
+
+      </html>
+  ```    
    
