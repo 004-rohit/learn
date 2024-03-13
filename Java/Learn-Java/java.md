@@ -7,6 +7,9 @@
 - [Java output](#java-output)
   - [Print text](#print-text)
   - [Print numbers](#print-numbers)
+- [Java Comments](#java-comments)
+  - [Single line comment](#single-line-comment)
+  - [Multi line comments](#multi-line-comments)
 
 
 
@@ -84,3 +87,24 @@ The main() method is required and you will see it in every Java program :
    ```java
       System.out.println(2 * 5);
    ```   
+# Java Comments 
+ - Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+
+## Single line comment
+ - Single-line comments start with two forward slashes `(//)`.
+
+ - Any text between `//` and the end of the line is ignored by Java (will not be executed). 
+ - **Example**
+    ```java
+      // This is a comment
+      System.out.println("Hello World");
+    ```  
+## Multi line comments
+ - Multi-line comments start with `/*` and ends with `*/`.
+
+ - Any text between `/*` and `*/` will be ignored by Java.    
+   ```java
+       /* The code below will print the words Hello World
+        to the screen, and it is amazing */
+      System.out.println("Hello World");
+   ```
