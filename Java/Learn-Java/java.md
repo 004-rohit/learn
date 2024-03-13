@@ -81,3 +81,6 @@ The main() method is required and you will see it in every Java program :
    ```java
       System.out.println(3 + 3);
    ```  
+   ```java
+      System.out.println(2 * 5);
+   ```   
