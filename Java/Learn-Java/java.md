@@ -4,6 +4,9 @@
 - [Java syntax](#java-syntax)
   - [Main method](#main-method)
     - [System.out.println()](#systemoutprintln)
+- [Java output](#java-output)
+  - [Print text](#print-text)
+  - [Print numbers](#print-numbers)
 
 
 
@@ -57,3 +60,24 @@ The main() method is required and you will see it in every Java program :
       System.out.println("Hello World");
     }
   ```
+# Java output
+## Print text
+ - we can use the println() method to output values or print text in Java :
+ - **example**
+  ```java
+    System.out.println("Hello World!");
+  ```  
+## Print numbers 
+- we you can also use the println() method to print numbers.
+- However, unlike text, we don't put numbers inside double quotes:
+
+- **Example**
+   ```java
+      System.out.println(3);
+      System.out.println(358);
+      System.out.println(50000);
+   ```
+  - You can also perform mathematical calculations inside the println() method:
+   ```java
+      System.out.println(3 + 3);
+   ```  
