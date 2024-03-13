@@ -2,6 +2,8 @@
   - [What is Java ?](#what-is-java-)
   - [Why use Java ?](#why-use-java-)
 - [Java syntax](#java-syntax)
+  - [Main method](#main-method)
+    - [System.out.println()](#systemoutprintln)
 
 
 
@@ -29,9 +31,29 @@
 
 # Java syntax
 ```Java 
+ // Main.java
+
    public class Main {
       public static void main(String[] args) {
         System.out.println("Hello World");
       }
     }
 ```  
+Every line of code that runs in Java must be inside a class. In our example, we named the class Main. A class should always start with an uppercase first letter.
+
+- **Note** : Java is case-sensitive : `"MyClass"` and `"myclass"` has different meaning.
+
+## Main method 
+The main() method is required and you will see it in every Java program :
+```Java
+// Main method 
+
+   public static void main(String[] args)
+```  
+### System.out.println()
+- Inside the main() method, we can use the `println()` method to print a line of text to the screen 
+  ```Java
+    public static void main(String[] args) {
+      System.out.println("Hello World");
+    }
+  ```
