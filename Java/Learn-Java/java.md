@@ -10,6 +10,8 @@
 - [Java Comments](#java-comments)
   - [Single line comment](#single-line-comment)
   - [Multi line comments](#multi-line-comments)
+- [Java variables](#java-variables)
+  - [Types of variables in java](#types-of-variables-in-java)
 
 
 
@@ -24,6 +26,8 @@
 - java supports packages 
 - java is robust (memory management)
 
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## Why use Java ?
 - Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
 - It is one of the most popular programming languages in the world
@@ -34,6 +38,8 @@
 - It has huge community support (tens of millions of developers)
 - Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
 - As Java is close to C++ and C#, it makes it easy for programmers to switch to Java
+
+<p align="right">(<a href="#top">˄</a>)</p>
 
 # Java syntax
 ```Java 
@@ -48,6 +54,8 @@
 Every line of code that runs in Java must be inside a class. In our example, we named the class Main. A class should always start with an uppercase first letter.
 
 - **Note** : Java is case-sensitive : `"MyClass"` and `"myclass"` has different meaning.
+  
+  <p align="right">(<a href="#top">˄</a>)</p>
 
 ## Main method 
 The main() method is required and you will see it in every Java program :
@@ -56,6 +64,8 @@ The main() method is required and you will see it in every Java program :
 
    public static void main(String[] args)
 ```  
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ### System.out.println()
 - Inside the main() method, we can use the `println()` method to print a line of text to the screen 
   ```Java
@@ -63,6 +73,8 @@ The main() method is required and you will see it in every Java program :
       System.out.println("Hello World");
     }
   ```
+  <p align="right">(<a href="#top">˄</a>)</p>
+
 # Java output
 ## Print text
  - we can use the println() method to output values or print text in Java :
@@ -87,6 +99,8 @@ The main() method is required and you will see it in every Java program :
    ```java
       System.out.println(2 * 5);
    ```   
+   <p align="right">(<a href="#top">˄</a>)</p>
+
 # Java Comments 
  - Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
 
@@ -108,3 +122,78 @@ The main() method is required and you will see it in every Java program :
         to the screen, and it is amazing */
       System.out.println("Hello World");
    ```
+   <p align="right">(<a href="#top">˄</a>)</p>
+
+# Java variables 
+**Variables are containers for storing data values.**   
+
+## Types of variables in java 
+1. **Local Variables** :
+     -  These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
+     - The scope of these variables exists only within the block in which the variables are declared, i.e., we can access these variables only within that block.
+     - Initialization of the local variable is mandatory before using it in the defined scope.
+     - **Example**
+     ```java
+        // Java Program to implement
+      // Local Variables
+      import java.io.*;
+
+      class GFG {
+        public static void main(String[] args)
+        {
+          // Declared a Local Variable
+          int var = 10;
+
+          // This variable is local to this main method only
+          System.out.println("Local Variable: " + var);
+        }
+      }
+    ```
+    - **Example**
+    ```java
+      package a;
+      public class LocalVariable {
+        public static void main(String[] args)
+        {
+          // x is a local variable
+          int x = 10;
+
+          // message is also a local
+          // variable
+          String message = "Hello, world!";
+
+          System.out.println("x = " + x);
+          System.out.println("message = " + message);
+
+          if (x > 5) {
+            // result is a
+            // local variable
+            String result = "x is greater than 5";
+            System.out.println(result);
+          }
+
+          // Uncommenting the line below will result in a
+          // compile-time error System.out.println(result);
+
+          for (int i = 0; i < 3; i++) {
+            String loopMessage
+              = "Iteration "
+              + i; // loopMessage is a local variable
+            System.out.println(loopMessage);
+          }
+
+          // Uncommenting the line below will result in a
+          // compile-time error
+          // System.out.println(loopMessage);
+        }
+      }
+
+    ```    
+<p align="right">(<a href="#top">˄</a>)</p>
+
+2. **Instance Variables** : 
+     - As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+    - Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier, then the default access specifier will be used.
+    - Initialization of an instance variable is not mandatory. Its default value is dependent on the data type of variable. For String it is null, for float it is 0.0f, for int it is 0, for Wrapper classes like Integer it is null, etc.
+    - Instance variables can be accessed only by creating objects.
+    - We initialize instance variables using constructors while creating an object. We can also use instance blocks to initialize the instance variables.
