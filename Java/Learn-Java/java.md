@@ -12,6 +12,7 @@
   - [Multi line comments](#multi-line-comments)
 - [Java variables](#java-variables)
   - [Types of variables in java](#types-of-variables-in-java)
+    - [Java print variables](#java-print-variables)
 
 
 
@@ -132,7 +133,7 @@ The main() method is required and you will see it in every Java program :
      -  These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
      - The scope of these variables exists only within the block in which the variables are declared, i.e., we can access these variables only within that block.
      - Initialization of the local variable is mandatory before using it in the defined scope.
-     - **Example**
+  - **Example**
      ```java
         // Java Program to implement
       // Local Variables
@@ -197,3 +198,89 @@ The main() method is required and you will see it in every Java program :
     - Initialization of an instance variable is not mandatory. Its default value is dependent on the data type of variable. For String it is null, for float it is 0.0f, for int it is 0, for Wrapper classes like Integer it is null, etc.
     - Instance variables can be accessed only by creating objects.
     - We initialize instance variables using constructors while creating an object. We can also use instance blocks to initialize the instance variables.
+- **Example**
+   ```java 
+     // Java Program to demonstrate
+      // Instance Variables
+      import java.io.*;
+
+      class GFG {
+
+        // Declared Instance Variable
+        public String geek;
+        public int i;
+        public Integer I;
+        public GFG()
+        {
+          // Default Constructor
+          // initializing Instance Variable
+          this.geek = "Name";
+        }
+
+        // Main Method
+        public static void main(String[] args)
+        {
+          // Object Creation
+          GFG name = new GFG();
+
+          // Displaying O/P
+          System.out.println("Geek name is: " + name.geek);
+          System.out.println("Default value for int is "
+                  + name.i);
+        
+          // toString() called internally
+          System.out.println("Default value for Integer is "
+                  + name.I);
+        }
+      }
+   ```
+1. **Static Variables**
+     - These variables are declared similarly to instance variables. The difference is that static variables are declared using the static keyword within a class outside of any method, constructor, or block.
+     - Unlike instance variables, we can only have one copy of a static variable per class, irrespective of how many objects we create.
+     - Static variables are created at the start of program execution and destroyed automatically when execution ends.
+     - Initialization of a static variable is not mandatory. Its default value is dependent on the data type of variable. For String it is null, for float it is 0.0f, for int it is 0, for Wrapper classes like Integer it is null, etc.
+- **Example**
+  ```java
+  // Java Program to demonstrate
+    // Static variables
+    import java.io.*;
+
+    class GFG {
+      // Declared static variable
+      public static String geek = "Shubham Jain";
+
+      public static void main(String[] args)
+      {
+
+        // geek variable can be accessed without object
+        // creation Displaying O/P GFG.geek --> using the
+        // static variable
+        System.out.println("Geek Name is : " + GFG.geek);
+
+        // static int c=0;
+        // above line,when uncommented,
+        // will throw an error as static variables cannot be
+        // declared locally.
+      }
+    }
+
+  ```
+### Java print variables 
+ - **Display Variables**
+     - The println() method is often used to display variables.
+
+     - To combine both text and a variable, use the + character  
+ - **Example**
+   ```java
+   String name = "John";
+     // (+ character)
+   System.out.println(" Hello " + name);
+   ```
+  - You can also use the + character to add a variable to another variable:
+  - **Example**
+  ```java
+      String firstName = "John ";
+      String lastName = "Doe";
+      String fullName = firstName + lastName;
+      System.out.println(fullName);
+  ```
