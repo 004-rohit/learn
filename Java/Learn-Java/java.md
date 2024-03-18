@@ -13,6 +13,9 @@
 - [Java variables](#java-variables)
   - [Types of variables in java](#types-of-variables-in-java)
     - [Java print variables](#java-print-variables)
+  - [**Java Identifiers**](#java-identifiers)
+- [Java Data Types](#java-data-types)
+  - [**Primitive Data Types**](#primitive-data-types)
 
 
 
@@ -234,6 +237,8 @@ The main() method is required and you will see it in every Java program :
         }
       }
    ```
+   <p align="right">(<a href="#top">˄</a>)</p>
+
 1. **Static Variables**
      - These variables are declared similarly to instance variables. The difference is that static variables are declared using the static keyword within a class outside of any method, constructor, or block.
      - Unlike instance variables, we can only have one copy of a static variable per class, irrespective of how many objects we create.
@@ -265,6 +270,8 @@ The main() method is required and you will see it in every Java program :
     }
 
   ```
+  <p align="right">(<a href="#top">˄</a>)</p>
+
 ### Java print variables 
  - **Display Variables**
      - The println() method is often used to display variables.
@@ -284,3 +291,47 @@ The main() method is required and you will see it in every Java program :
       String fullName = firstName + lastName;
       System.out.println(fullName);
   ```
+- **Declare Many Variables**
+  - To declare more than one variable of the same type, you can use a comma-separated list:
+  ```java
+     int x = 5, y = 6, z = 50;
+     System.out.println(x + y + z);
+  ```
+- **One Value to Multiple Variables**
+  - You can also assign the same value to multiple variables in one line:
+  ```java
+     int x, y, z;
+     x = y = z = 50;
+     System.out.println(x + y + z);
+  ```     
+  <p align="right">(<a href="#top">˄</a>)</p>
+
+## **Java Identifiers**
+   - All Java variables must be identified with unique names.
+
+   - These unique names are called identifiers.
+
+   - Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+   
+  - **Example**
+   ```java
+      // Good
+      int minutesPerHour = 60;
+
+      // OK, but not so easy to understand what m actually is
+     int m = 60;
+   ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+# Java Data Types
+
+- Data types are divided into two groups:
+  - **Primitive data types** - includes `byte`, `short`, `int`, `long`, `float`, `double`, `boolean` and `char`.
+  
+  - **Non-primitive data types** - such as `String`, `Arrays` and `Classes`. 
+
+## **Primitive Data Types**
+- A primitive data type specifies the size and type of variable values, and it has no additional methods.
+- There are eight primitive data types in Java:
+  <img src="assets/images/data types.JPG">
+
