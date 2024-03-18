@@ -410,3 +410,10 @@ The main() method is required and you will see it in every Java program :
    - ON / OFF
    - TRUE / FALSE
 - For this, Java has a boolean data type, which can only take the values true or false:
+- **Example**
+```java
+  boolean isJavaFun = true;
+  boolean isFishTasty = false;
+  System.out.println(isJavaFun);     // Outputs true
+  System.out.println(isFishTasty);   // Outputs false  
+```
