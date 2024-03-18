@@ -353,3 +353,15 @@ The main() method is required and you will see it in every Java program :
       System.out.println(myNum); 
    ```
 
+2. **Short** : The short data type can store whole numbers from -32768 to 32767:  
+   ```java
+      short myNum = 5000;
+      System.out.println(myNum);
+   ```
+3. **int** : The int data type can store whole numbers from -2147483648 to 2147483647. In general, and in our tutorial, the int data type is the preferred data type when we create variables with a numeric value.
+   ```java
+      int myNum = 100000;
+      System.out.println(myNum);
+   ```   
+  
+
