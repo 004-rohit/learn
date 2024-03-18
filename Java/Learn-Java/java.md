@@ -18,6 +18,8 @@
   - [**Primitive Data Types**](#primitive-data-types)
   - [Java Numbers](#java-numbers)
   - [Integer Types](#integer-types)
+  - [**Floating Point Types**](#floating-point-types)
+  - [Scientific Numbers](#scientific-numbers)
 
 
 
@@ -363,5 +365,31 @@ The main() method is required and you will see it in every Java program :
       int myNum = 100000;
       System.out.println(myNum);
    ```   
-  
+4. **Long** : The long data type can store whole numbers from -9223372036854775808 to 9223372036854775807. This is used when int is not large enough to store the value. Note that you should end the value with an "L":
+    ```java
+       long myNum = 15000000000L;
+       System.out.println(myNum);
+    ```   
+ ## **Floating Point Types** 
+  - You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
 
+- The float and double data types can store fractional numbers. Note that you should end the value with an " f " for floats and " d " for doubles:
+
+```java
+   // float example 
+      float myNum = 5.75f;
+     System.out.println(myNum);
+```
+```java
+   // double example
+   double myNum = 19.99d;
+  System.out.println(myNum);
+```
+## Scientific Numbers
+ - A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+```java
+    float f1 = 35e3f;
+    double d1 = 12E4d;
+    System.out.println(f1);
+    System.out.println(d1);
+```
