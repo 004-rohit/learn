@@ -16,6 +16,8 @@
   - [**Java Identifiers**](#java-identifiers)
 - [Java Data Types](#java-data-types)
   - [**Primitive Data Types**](#primitive-data-types)
+  - [Java Numbers](#java-numbers)
+  - [Integer Types](#integer-types)
 
 
 
@@ -334,4 +336,20 @@ The main() method is required and you will see it in every Java program :
 - A primitive data type specifies the size and type of variable values, and it has no additional methods.
 - There are eight primitive data types in Java:
   <img src="assets/images/data types.JPG">
+
+- **Non - primitive data type**
+  - Non-primitive data types in Java are not predefined. They are created by the programmer. Non-primitive data types are also called 'reference variables' or 'object references' as they reference a memory location where data is stored.
+
+## Java Numbers 
+  Primitive number types are divided into two groups:
+
+- **Integer types** stores whole numbers, positive or negative (such as 123 or -456), without decimals. Valid types are byte, short, int and long. Which type you should use, depends on the numeric value.
+- **Floating point** types represents numbers with a fractional part, containing one or more decimals. There are two types: float and double.
+
+## Integer Types
+1. **byte** : The byte data type can store whole numbers from -128 to 127. This can be used instead of int or other integer types to save memory when you are certain that the value will be within -128 and 127:
+   ```java
+   byte myNum = 100;
+  System.out.println(myNum); 
+   ```
 
