@@ -349,7 +349,7 @@ The main() method is required and you will see it in every Java program :
 ## Integer Types
 1. **byte** : The byte data type can store whole numbers from -128 to 127. This can be used instead of int or other integer types to save memory when you are certain that the value will be within -128 and 127:
    ```java
-   byte myNum = 100;
-  System.out.println(myNum); 
+      byte myNum = 100;
+      System.out.println(myNum); 
    ```
 
