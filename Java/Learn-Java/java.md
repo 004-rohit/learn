@@ -21,6 +21,12 @@
   - [**Floating Point Types**](#floating-point-types)
   - [Scientific Numbers](#scientific-numbers)
   - [Java Boolean Data Types](#java-boolean-data-types)
+  - [Java Characters](#java-characters)
+    - [String](#string)
+- [Java Type Casting](#java-type-casting)
+  - [**Widening casting**](#widening-casting)
+  - [**Narrowing Casting**](#narrowing-casting)
+- [Java operators](#java-operators)
 
 
 
@@ -402,6 +408,8 @@ The main() method is required and you will see it in every Java program :
     System.out.println(f1);
     System.out.println(d1);
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## Java Boolean Data Types
  Boolean Types :
  - Very often in programming, you will need a data type that can only have one of two values, like:
@@ -416,4 +424,100 @@ The main() method is required and you will see it in every Java program :
   boolean isFishTasty = false;
   System.out.println(isJavaFun);     // Outputs true
   System.out.println(isFishTasty);   // Outputs false  
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+## Java Characters
+- The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+- **Example**
+```java
+  char myGrade = 'B';
+  System.out.println(myGrade);
+```
+Alternatively, if you are familiar with ASCII values, you can use those to display certain characters:
+```java
+  char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+  System.out.println(myVar1);    // a
+  System.out.println(myVar2);    // b
+  System.out.println(myVar3);    // c
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+### String 
+- The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+```java 
+ String greeting = "Hello World";
+ System.out.println(greeting);
+```
+# Java Type Casting
+- Type casting is when you assign a value of one primitive data type to another type.
+- In Java, there are two types of casting:
+    - Widening Casting (automatically) - converting a smaller type to a larger type size
+ `byte` -> `short` -> `char` -> `int` -> `long` -> `float` -> `double`
+   
+   - Narrowing Casting (manually) - converting a larger type to a smaller size type
+`double` -> `float` -> `long` -> `int` -> `char` -> `short` -> `byte`
+
+<p align="right">(<a href="#top">˄</a>)</p>
+
+## **Widening casting** 
+- Widening casting is done automatically when passing a smaller size type to a larger size type:
+- **Example**
+```java
+  public class Main {
+    public static void main(String[] args) {
+      int myInt = 9;
+      double myDouble = myInt; // Automatic casting: int to double
+
+      System.out.println(myInt);      // Outputs 9
+      System.out.println(myDouble);   // Outputs 9.0
+    }
+  } 
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+## **Narrowing Casting**
+- Narrowing casting must be done manually by placing the type in parentheses in front of the value:
+- **Example**
+```java
+  public class Main {
+    public static void main(String[] args) {
+      double myDouble = 9.78d;
+      int myInt = (int) myDouble; // Manual casting: double to int
+
+      System.out.println(myDouble);   // Outputs 9.78
+      System.out.println(myInt);      // Outputs 9
+    }
+  }
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+# Java operators
+- Operators are used to perform operations on variables and values.
+- **Example**
+```java
+  int x = 100 + 50;  // + operator to add together two values
+```
+-  it can also be used to add together a variable and a value, or a variable and another variable:  
+```java
+  int sum1 = 100 + 50;        // 150 (100 + 50)
+  int sum2 = sum1 + 250;      // 400 (150 + 250)
+  int sum3 = sum2 + sum2;     // 800 (400 + 400)
+```
+- Java divides the operators into the following groups:
+
+   - Arithmetic operators
+   - Assignment operators
+   - Comparison operators
+   - Logical operators
+   - Bitwise operators
+
+- **Arithmetic operators** : Arithmetic operators are used to perform common mathematical operations.
+  <img src="assets/images/arithmetic operators.JPG">
+
+- **Java Assignment Operators** :Assignment operators are used to assign values to variables.
+- **Example**
+```java
+  //  we use the assignment operator (=) to assign the value 10 to a variable called x:
+  int x = 10;
 ```
