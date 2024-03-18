@@ -20,6 +20,7 @@
   - [Integer Types](#integer-types)
   - [**Floating Point Types**](#floating-point-types)
   - [Scientific Numbers](#scientific-numbers)
+  - [Java Boolean Data Types](#java-boolean-data-types)
 
 
 
@@ -333,6 +334,8 @@ The main() method is required and you will see it in every Java program :
   - **Primitive data types** - includes `byte`, `short`, `int`, `long`, `float`, `double`, `boolean` and `char`.
   
   - **Non-primitive data types** - such as `String`, `Arrays` and `Classes`. 
+  - 
+<p align="right">(<a href="#top">˄</a>)</p>
 
 ## **Primitive Data Types**
 - A primitive data type specifies the size and type of variable values, and it has no additional methods.
@@ -341,6 +344,8 @@ The main() method is required and you will see it in every Java program :
 
 - **Non - primitive data type**
   - Non-primitive data types in Java are not predefined. They are created by the programmer. Non-primitive data types are also called 'reference variables' or 'object references' as they reference a memory location where data is stored.
+  
+<p align="right">(<a href="#top">˄</a>)</p>
 
 ## Java Numbers 
   Primitive number types are divided into two groups:
@@ -370,6 +375,8 @@ The main() method is required and you will see it in every Java program :
        long myNum = 15000000000L;
        System.out.println(myNum);
     ```   
+    <p align="right">(<a href="#top">˄</a>)</p>
+
  ## **Floating Point Types** 
   - You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
 
@@ -385,6 +392,8 @@ The main() method is required and you will see it in every Java program :
    double myNum = 19.99d;
   System.out.println(myNum);
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## Scientific Numbers
  - A floating point number can also be a scientific number with an "e" to indicate the power of 10:
 ```java
@@ -393,3 +402,11 @@ The main() method is required and you will see it in every Java program :
     System.out.println(f1);
     System.out.println(d1);
 ```
+## Java Boolean Data Types
+ Boolean Types :
+ - Very often in programming, you will need a data type that can only have one of two values, like:
+
+   - YES / NO
+   - ON / OFF
+   - TRUE / FALSE
+- For this, Java has a boolean data type, which can only take the values true or false:
