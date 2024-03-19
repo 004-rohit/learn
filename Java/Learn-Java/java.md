@@ -27,6 +27,10 @@
   - [**Widening casting**](#widening-casting)
   - [**Narrowing Casting**](#narrowing-casting)
 - [Java operators](#java-operators)
+  - [Java Comparison Operators](#java-comparison-operators)
+  - [Java Logical Operators](#java-logical-operators)
+- [Java string](#java-string)
+  - [String Length](#string-length)
 
 
 
@@ -520,4 +524,47 @@ Alternatively, if you are familiar with ASCII values, you can use those to displ
 ```java
   //  we use the assignment operator (=) to assign the value 10 to a variable called x:
   int x = 10;
+```
+- The addition assignment operator (+=) adds a value to a variable:
+```java
+  int x = 10;
+  x += 5;
+```
+## Java Comparison Operators
+- Comparison operators are used to compare two values (or variables). This is important in programming, because it helps us to find answers and make decisions.
+- The return value of a comparison is either true or false. These values are known as Boolean values.
+```java
+int x = 5;
+int y = 3;
+System.out.println(x > y); // returns true, because 5 is higher than 3
+```
+## Java Logical Operators
+- You can also test for true or false values with logical operators.
+
+- Logical operators are used to determine the logic between variables or values:
+  <img src="assets/images/logical operator.JPG">
+
+# Java string 
+- A String variable contains a collection of characters surrounded by double quotes:
+- Strings are used for storing text.
+
+- **Example**
+    - Create a variable of type String and assign it a value:
+      ```java
+      String greeting = "Hello";
+      ```  
+
+## String Length
+- A String in Java is actually an object, which contain methods that can perform certain operations on strings. For example, the length of a string can be found with the length() method:
+```java
+String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println("The length of the txt string is: " + txt.length());
+  // output : The length of the txt string is: 26
+```
+- **More String Methods**
+    - There are many string methods available, for example toUpperCase() and toLowerCase():
+```java
+String txt = "Hello World";
+System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+System.out.println(txt.toLowerCase());   // Outputs "hello world"
 ```
