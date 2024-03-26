@@ -31,6 +31,11 @@
   - [Java Logical Operators](#java-logical-operators)
 - [Java string](#java-string)
   - [String Length](#string-length)
+  - [Finding a Character in a String](#finding-a-character-in-a-string)
+  - [String Concatenation](#string-concatenation)
+  - [Numbers and Strings](#numbers-and-strings)
+    - [Adding Numbers and Strings](#adding-numbers-and-strings)
+- [Java Special Characters](#java-special-characters)
 
 
 
@@ -530,6 +535,8 @@ Alternatively, if you are familiar with ASCII values, you can use those to displ
   int x = 10;
   x += 5;
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## Java Comparison Operators
 - Comparison operators are used to compare two values (or variables). This is important in programming, because it helps us to find answers and make decisions.
 - The return value of a comparison is either true or false. These values are known as Boolean values.
@@ -538,21 +545,28 @@ int x = 5;
 int y = 3;
 System.out.println(x > y); // returns true, because 5 is higher than 3
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
 ## Java Logical Operators
 - You can also test for true or false values with logical operators.
 
 - Logical operators are used to determine the logic between variables or values:
   <img src="assets/images/logical operator.JPG">
 
+<p align="right">(<a href="#top">˄</a>)</p>
+
 # Java string 
 - A String variable contains a collection of characters surrounded by double quotes:
 - Strings are used for storing text.
+- Java counts positions from zero.
+- 0 is the first position in a string, 1 is the second, 2 is the third ...
 
 - **Example**
     - Create a variable of type String and assign it a value:
       ```java
       String greeting = "Hello";
       ```  
+<p align="right">(<a href="#top">˄</a>)</p>
 
 ## String Length
 - A String in Java is actually an object, which contain methods that can perform certain operations on strings. For example, the length of a string can be found with the length() method:
@@ -568,3 +582,67 @@ String txt = "Hello World";
 System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
 System.out.println(txt.toLowerCase());   // Outputs "hello world"
 ```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+## Finding a Character in a String
+- The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string (including whitespace):
+- **Example**
+```java
+String txt = "Please locate where 'locate' occurs!";
+System.out.println(txt.indexOf("locate")); // Outputs 7
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+## String Concatenation
+- The + operator can be used between strings to combine them. This is called concatenation:
+- **Example**
+```java
+String firstName = "John";
+String lastName = "Doe";
+System.out.println(firstName + " " + lastName)
+```
+- **Note** that we have added an empty text (" ") to create a space between firstName and lastName on print.
+
+- we can also use the concat() method to concatenate two strings:
+- **Example**
+```java
+String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.concat(lastName));
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+## Numbers and Strings
+### Adding Numbers and Strings
+ - Java uses the + operator for both addition and concatenation.
+ - Numbers are added. Strings are concatenated.
+
+- If you add two numbers, the result will be a number:
+```java
+int x = 10;
+int y = 20;
+int z = x + y;  // z will be 30 (an integer/number)
+```
+- If you add two strings, the result will be a string concatenation:
+```java
+String x = "10";
+String y = "20";
+String z = x + y;  // z will be 1020 (a String)
+```
+<p align="right">(<a href="#top">˄</a>)</p>
+
+# Java Special Characters
+- Strings - Special Characters
+  - Because strings must be written within quotes, Java will misunderstand this string, and generate an error:
+  ```java
+  String txt = "We are the so-called "Vikings" from the north.";
+  ``` 
+- The solution to avoid this problem, is to use the backslash escape character.
+
+- The backslash `(\)` escape character turns special characters into string characters:
+<img src="assets/images/special character.JPG">
+The sequence \"  inserts a double quote in a string:
+- **Example**
+```java
+String txt = "We are the so-called \"Vikings\" from the north.";
+``` 
