@@ -642,6 +642,7 @@ String z = x + y;  // z will be 1020 (a String)
 - The backslash `(\)` escape character turns special characters into string characters:
 <img src="assets/images/special character.JPG">
 The sequence \"  inserts a double quote in a string:
+
 - **Example**
 ```java
 String txt = "We are the so-called \"Vikings\" from the north.";
